@@ -3,11 +3,11 @@ import '../App.css';
 
 function Toggle(props) {
   return (
-    <label className="toggle-label">
+    <label className="label">
       <div className="toggle-container">
         <div className="toggle-switch"></div>
       </div>
-      <input type="checkbox" />
+      <input id="toggle" name="toggle" type="checkbox" />
     </label>
   );
 }
