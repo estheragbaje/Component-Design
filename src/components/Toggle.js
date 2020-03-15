@@ -3,12 +3,12 @@ import '../App.css';
 
 function Toggle(props) {
   return (
-    <form>
+    <label className="toggle-label">
       <div className="toggle-container">
         <div className="toggle-switch"></div>
       </div>
       <input type="checkbox" />
-    </form>
+    </label>
   );
 }
 

@@ -52,4 +52,26 @@
   width: 12px;
   border-radius: 99999px;
   margin-left: 4px;
+  cursor: pointer;
 }
+
+.toggle-label {
+  z-index: 10;
+}
+
+input[type='checkbox'] {
+  position: absolute;
+  visibility: hidden;
+}
+
+/* .toggle-container + .toggle-switch {
+  position: fixed;
+  top: 130px;
+  right: 0;
+  display: block;
+  width: 35px;
+  color: #e83737;    
+  text-align: center;
+  background: #fff;
+  cursor: pointer;
+} */
