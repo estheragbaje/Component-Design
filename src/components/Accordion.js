@@ -18,7 +18,6 @@ function Accordion() {
         </li>
       </ul>
     </div>
-    
   );
 }
 

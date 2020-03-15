@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.toggle-container {
+  background-color: cadetblue;
+  height: 20px;
+  width: 36px;
+  border-radius: 99999px;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-switch {
+  background-color: white;
+  height: 12px;
+  width: 12px;
+  border-radius: 99999px;
+  margin-left: 4px;
+}
